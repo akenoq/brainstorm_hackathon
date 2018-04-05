@@ -8,7 +8,7 @@
     <meta name="description" content="About team Brainstorm">
     <meta name="author" content="Brainstorm">
 
-    <!-- fav ? -->
+    <!-- fav -->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 
@@ -21,13 +21,13 @@
     <link href="dist/css/main.css" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header hidden>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <img class="logo-img" src="dist/img/brainstorm-strategy-smm-digital.svg">
             <span class="title-team">Brainstorm</span>
         </nav>
     </header>
-    <div id="team-carousel" class="carousel slide" data-ride="carousel">
+    <div id="team-carousel" class="carousel slide" data-ride="carousel" hidden>
         <ol class="carousel-indicators">
             <li data-target="#team-carousel" data-slide-to="0" class="active"></li>
             <li data-target="#team-carousel" data-slide-to="1"></li>
@@ -36,43 +36,46 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <div class="article">
+                <div id="Maxim" class="article">
                     <div class="photo">
                         <img src="dist/img/Maxim.png">
                     </div>
                     <div class="text">
                         <div class="param"> primary key: <span class="name"> Колотовкин Максим Ильич </span></div>
                         <div class="group"><span class="param"> group: </span>ИУ6(81)</div>
+                        <div class="git"><span class="param"> &#128025; GitHub: </span><a href="https://github.com/maxim218">maxim218</a></div>
                         <div class="about"><span class="param"> about: </span>
-                            Увлекаюсь спортом. Сильно люблю программировать на языке JavaScript.
+                            Студент Технопарка mail.ru. Увлекаюсь спортом. Сильно люблю программировать на языке JavaScript.
                             В свободное время создаю браузерные трёхменрые игры с использованием фреймворка ThreeJS.
                         </div>
                     </div>
                 </div>
             </div>
             <div class="carousel-item">
-                <div class="article">
+                <div id="Alex" class="article">
                     <div class="photo">
                         <img src="dist/img/Alex.jpg">
                     </div>
                     <div class="text">
                         <div class="param"> primary key: <span class="name"> Кирьяненко Александр Владиславович </span></div>
                         <div class="group"><span class="param"> group: </span>ИУ6(81)</div>
+                        <div class="git"><span class="param"> &#128025; GitHub: </span><a href="https://github.com/kiryanenko">kiryanenko</a></div>
                         <div class="about"><span class="param"> about: </span>
-                            Учусь на 4 курсе МГТУ им. Баумана на кафедре ИУ6. Очень сильно увлекаюсь программированием.
+                            Студент 3го семестра Технопарка. Очень сильно увлекаюсь программированием.
                             После окончания ВУЗа планирую заниматься веб-разработкой или геймдевом.
                         </div>
                     </div>
                 </div>
             </div>
             <div class="carousel-item">
-                <div class="article">
+                <div id="Zlata" class="article">
                     <div class="photo">
                         <img src="dist/img/Zlata_norm.png">
                     </div>
                     <div class="text">
                         <div class="param"> primary key: <span class="name"> Прохорова Злата Романовна </span></div>
                         <div class="group"><span class="param"> group: </span>ИУ6(83)</div>
+                        <div class="git"><span class="param"> &#128025; GitHub: </span><a href="https://github.com/">???</a></div>
                         <div class="about"><span class="param"> about: </span>
                             Увлекается мобильной разработкой. Не любит показывать лицо и побаивается python.
                             Убежденный меломан, отчаянный любитель чая и кофе, общепризнанная сова.
@@ -81,15 +84,16 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <div class="article">
+                <div id="Nina" class="article">
                     <div class="photo">
-                        <img src="dist/img/Nina.jpg">
+                        <img src="dist/img/Nina_norm.jpg">
                     </div>
                     <div class="text">
                         <div class="param"> primary key: <span class="name"> Куклина Нина Ильинична </span></div>
                         <div class="group"><span class="param"> group: </span>ИУ6(81)</div>
+                        <div class="git"><span class="param"> &#128025; GitHub: </span><a href="https://github.com/akenoq">akenoq</a></div>
                         <div class="about"><span class="param"> about: </span>
-                            Увлекаюсь интересным: гитарами, рисованием, программированием, Питером. JavaScript, Python <3
+                            Студентка 3го семестра Технопарка.Увлекаюсь интересным: гитарами, рисованием, программированием, Питером. JavaScript, Python <3
                             Верю в светлое будущее JavaScript, в которое он так уверенно шагает.
                             В свободное время, наверное, сплю => путь к свободе - уснувший разум.
                         </div>
@@ -106,10 +110,12 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
-    <div class="footer">
+    <div class="footer" hidden>
         &copy;Brainstorm, 2018
     </div>
-
+<!-- typing --><!-- typing --><!-- typing -->
+<!--<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>-->
+<!--<script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script>-->
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

@@ -31,7 +31,7 @@ body {
 
 .title-team {
     font-weight: 700;
-    font-size: 30px;
+    font-size: 29px;
 }
 
 .photo {
@@ -40,8 +40,6 @@ body {
     /*overflow: hidden;*/
     text-align: center;
     padding-bottom: 50px;
-    /*background-image: url("./../img/yellow.jpg");*/
-    /*background-size: contain;*/
 }
 
 .photo img {
@@ -73,6 +71,19 @@ body {
     font-weight: 800;
 }
 
+.git {
+    font-weight: 800;
+}
+
+a {
+    color: #ffdd00;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: orangered;
+}
+
 .nav-button-redefine {
     align-items: initial !important;
     top: 8em !important;
@@ -81,16 +92,3 @@ body {
 .footer {
     text-align: center;
 }
-
-/* footer прилипший к низу*/
-/*footer {*/
-    /*opacity: 0.5;*/
-    /*padding-bottom: 10px;*/
-    /*position: absolute;*/
-    /*left: 0;*/
-    /*bottom: 0;*/
-    /*width: 100%;*/
-    /*text-align:  center;*/
-    /*!*height: 1em;*!*/
-    /*font-weight: 600;*/
-/*}*/
