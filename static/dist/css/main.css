@@ -61,6 +61,36 @@ body {
     /*text-align: left;*/
 }
 
+.capitan {
+    display: inline-block; /* Строчно-блочный элемент */
+    position: relative; /* Относительное позиционирование */
+    color: #ffdd00;
+    cursor: pointer;
+}
+
+.marker {
+color: #fafafa;
+font-size: 12px; /* Размер текста подсказки */
+font-family: "Cour"; /* Гарнитура шрифта */
+background: rgba(84, 255, 0, 0.12); /* Полупрозрачный цвет фона */
+padding: 5px 5px; /* Поля */
+border-radius: 5px;
+}
+
+/*.capitan:hover::after {*/
+    /*color: #fafafa;*/
+    /*font-size: 12px; !* Размер текста подсказки *!*/
+    /*font-family: "Cour"; !* Гарнитура шрифта *!*/
+    /*content: attr(data-title); !* Выводим текст *!*/
+    /*position: absolute; !* Абсолютное позиционирование *!*/
+    /*right: 120%; top: -20%; !* Положение подсказки *!*/
+    /*z-index: 1; !* Отображаем подсказку поверх других элементов *!*/
+    /*background: rgba(84, 255, 0, 0.12); !* Полупрозрачный цвет фона *!*/
+    /*padding: 5px 5px; !* Поля *!*/
+    /*border-radius: 5px;*/
+    /*!*border: 1px solid #512142; !* Параметры рамки *!*!*/
+/*}*/
+
 .param {
     color: #fafafa;
 }
