@@ -1,0 +1,96 @@
+@font-face {
+    font-family: Cour; /* Имя шрифта */
+    src: url(../fonts/cour.ttf); /* Путь к файлу со шрифтом */
+}
+
+.logo-img {
+    height: 100px;
+    width: 100px;
+    margin: 15px;
+}
+
+body {
+    font-family: "Cour";
+    font-weight: 600;
+    font-size: 15px;
+    color: limegreen;
+    background: #343a40;
+}
+
+.article {
+    width: 80%;
+    font-family: "Cour";
+    font-size: 15px;
+    color: limegreen;
+    /* margin можно упростить запись */
+    margin-right: 15%;
+    margin-left: 10%;
+    margin-bottom: 15%;
+    word-break: break-all;
+}
+
+.title-team {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.photo {
+    height: 300px;
+    /*мб убрать oveflow, см. мобильную версию*/
+    /*overflow: hidden;*/
+    text-align: center;
+    padding-bottom: 50px;
+    /*background-image: url("./../img/yellow.jpg");*/
+    /*background-size: contain;*/
+}
+
+.photo img {
+    height: 100%;
+    /*width: 100%;*/
+    border-radius: 50%;
+}
+
+.text {
+    width: inherit;
+    text-align: center;
+    display: inline;
+    word-break: normal;
+    /*text-align: left;*/
+}
+
+.param {
+    color: #fafafa;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 800;
+    color: limegreen;
+    word-wrap: break-word; /* Перенос слов */
+}
+
+.group {
+    font-weight: 800;
+}
+
+.nav-button-redefine {
+    align-items: initial !important;
+    top: 8em !important;
+}
+
+.footer {
+    text-align: center;
+}
+
+/* footer прилипший к низу*/
+/*footer {*/
+    /*opacity: 0.5;*/
+    /*padding-bottom: 10px;*/
+    /*position: absolute;*/
+    /*left: 0;*/
+    /*bottom: 0;*/
+    /*width: 100%;*/
+    /*text-align:  center;*/
+    /*!*height: 1em;*!*/
+    /*font-weight: 600;*/
+/*}*/
