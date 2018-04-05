@@ -35,13 +35,7 @@ body {
 }
 
 .photo {
-    /*height: 300px;*/
-    /*!*мб убрать oveflow, см. мобильную версию*!*/
-    /*!*overflow: hidden;*!*/
-    /*text-align: center;*/
-    /*padding-bottom: 50px;*/
     height: 250px;
-    /* overflow: hidden; */
     text-align: center;
     padding-bottom: 20px;
 }
@@ -76,20 +70,6 @@ background: rgba(84, 255, 0, 0.12); /* Полупрозрачный цвет ф�
 padding: 5px 5px; /* Поля */
 border-radius: 5px;
 }
-
-/*.capitan:hover::after {*/
-    /*color: #fafafa;*/
-    /*font-size: 12px; !* Размер текста подсказки *!*/
-    /*font-family: "Cour"; !* Гарнитура шрифта *!*/
-    /*content: attr(data-title); !* Выводим текст *!*/
-    /*position: absolute; !* Абсолютное позиционирование *!*/
-    /*right: 120%; top: -20%; !* Положение подсказки *!*/
-    /*z-index: 1; !* Отображаем подсказку поверх других элементов *!*/
-    /*background: rgba(84, 255, 0, 0.12); !* Полупрозрачный цвет фона *!*/
-    /*padding: 5px 5px; !* Поля *!*/
-    /*border-radius: 5px;*/
-    /*!*border: 1px solid #512142; !* Параметры рамки *!*!*/
-/*}*/
 
 .param {
     color: #fafafa;
@@ -127,20 +107,5 @@ a:hover {
 
 .footer {
     text-align: center;
-}
-
-.like {
-    color: coral;
-    font-size: 1.5em;
-}
-
-.like:hover {
-    /*font-size: 1.6em;*/
-    color: coral;
-    cursor: pointer;
-    text-shadow: 0 0 3px lime;
-}
-
-.raiting{
-    font-size: 1em;
+    opacity: 0.7;
 }
