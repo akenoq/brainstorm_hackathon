@@ -92,3 +92,19 @@ a:hover {
 .footer {
     text-align: center;
 }
+
+.like {
+    color: coral;
+    font-size: 1.5em;
+}
+
+.like:hover {
+    font-size: 1.5em;
+    color: lightcoral;
+    box-shadow: limegreen;
+    cursor: pointer;
+}
+
+.raiting{
+    font-size: 1em;
+}
