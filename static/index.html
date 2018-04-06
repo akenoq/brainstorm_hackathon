@@ -1,45 +1,53 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <!-- Required meta tags -->
+    <!-- Устанавливаем кодировку -->
     <meta charset="utf-8">
+    <!-- Для работы с мобильными устройствами -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- -->
+
     <meta name="description" content="About team Brainstorm">
     <meta name="author" content="Brainstorm">
 
-    <!-- fav -->
+    <!-- favicon -->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 
     <title>Brainstorm</title>
 
-    <!-- Bootstrap core CSS -->
+    <!-- Подключаем Bootstrap core CSS -->
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Our styles -->
+    <!-- Подключаем сво стили -->
     <link href="dist/css/main.css" rel="stylesheet">
 </head>
 <body>
+
     <header hidden>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <img class="logo-img" src="dist/img/brainstorm-strategy-smm-digital.svg">
             <span class="title-team">Brainstorm</span>
         </nav>
     </header>
+    <!-- Используем компонет Carousel Bootstrap для реализации анимации переходов -->
     <div id="team-carousel" class="carousel slide" data-ride="carousel" hidden>
+        <!-- Интерактивный индикатор навигации между блоками -->
         <ol class="carousel-indicators">
             <li data-target="#team-carousel" data-slide-to="0" class="active"></li>
             <li data-target="#team-carousel" data-slide-to="1"></li>
             <li data-target="#team-carousel" data-slide-to="2"></li>
             <li data-target="#team-carousel" data-slide-to="3"></li>
         </ol>
+        <!-- Формируем контент для блоков -->
         <div class="carousel-inner">
+            <!-- Формируем блок с информацией об участнике 1 -->
             <div class="carousel-item active">
                 <div id="Maxim" class="article">
+                    <!-- Фото участника -->
                     <div class="photo">
                         <img src="dist/img/Maxim.png">
                     </div>
+                    <!-- Информация об участнике -->
                     <div class="text">
                         <div class="param">
                             <span class="marker"> Капитан</span>
@@ -56,6 +64,7 @@
                     </div>
                 </div>
             </div>
+            <!-- Формируем блок с информацией об участнике 2 -->
             <div class="carousel-item">
                 <div id="Alex" class="article">
                     <div class="photo">
@@ -72,6 +81,7 @@
                     </div>
                 </div>
             </div>
+            <!-- Формируем блок с информацией об участнике 3 -->
             <div class="carousel-item">
                 <div id="Zlata" class="article">
                     <div class="photo">
@@ -88,6 +98,7 @@
                     </div>
                 </div>
             </div>
+            <!-- Формируем блок с информацией об участнике 4 -->
             <div class="carousel-item">
                 <div id="Nina" class="article">
                     <div class="photo">
@@ -106,6 +117,7 @@
                 </div>
             </div>
         </div>
+        <!-- Добавляем элементы навигации по блокам с участниками "вперед/назад" -->
         <a class="carousel-control-prev nav-button-redefine" href="#team-carousel" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
@@ -118,10 +130,11 @@
     <div class="footer" hidden>
         &copy;Brainstorm, 2018
     </div>
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<script src="dist/js/main.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- Подключаем свой скрипт -->
+    <script src="dist/js/main.js"></script>
 </body>
 </html>

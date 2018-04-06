@@ -1,85 +1,98 @@
+/* Для корректного отображения шрифта во всех браузерах
+    подключаем  файл с ресурсами шрифта */
 @font-face {
     font-family: Cour; /* Имя шрифта */
     src: url(../fonts/cour.ttf); /* Путь к файлу со шрифтом */
 }
 
+/* Логотип команды */
 .logo-img {
     height: 100px;
     width: 100px;
     margin: 15px;
 }
 
+/* Название команды */
+.title-team {
+    font-weight: 700;
+    font-size: 29px;
+}
+
+/* Устанавливаем параметры шрифта и фона
+для всего содержимого сттраницы*/
 body {
-    font-family: "Cour";
+    font-family: "Cour", serif;
     font-weight: 600;
     font-size: 15px;
     color: limegreen;
     background: #343a40;
 }
 
+/**********************************************/
+/* Блок с информацией об участнике */
 .article {
-    width: 80%;
-    font-family: "Cour";
+    width: 80%; /* Блок по фирине замет 80% родительского блока */
+    font-family: "Cour", serif;
     font-size: 15px;
     color: limegreen;
-    /* margin можно упростить запись */
-    margin-right: 15%;
+    margin-right: 15%; /* Устанавливаем отступы */
     margin-left: 10%;
     margin-bottom: 15%;
-    word-break: break-all;
 }
 
-.title-team {
-    font-weight: 700;
-    font-size: 29px;
-}
-
+/* Блок с выравниванием по центру для фото участника */
 .photo {
     height: 250px;
     text-align: center;
     padding-bottom: 20px;
 }
 
+/* Картинка внутри блока .photo займет */
 .photo img {
-    height: 100%;
-    /*width: 100%;*/
-    border-radius: 50%;
+    height: 100%; /* по высоте родительского блока */
+    border-radius: 50%; /* границы скругляем для задания круглой формы фото */
 }
 
+/* Блок с информацией об участнике */
 .text {
-    height: auto;
+    height: auto; /* Высота блока по контенту */
     width: inherit;
-    text-align: center;
+    text-align: center; /* Выравнивание по центру */
     display: inline;
-    word-break: normal;
-    /*text-align: left;*/
+    word-break: normal; /* Устанавливаем режим переноса текста "по словам" */
 }
 
+/* Стиль звездочки капитана */
 .capitan {
     display: inline-block; /* Строчно-блочный элемент */
     position: relative; /* Относительное позиционирование */
     color: #ffdd00;
-    cursor: pointer;
+    cursor: pointer; /* Указатель рука */
 }
 
+/* Маркер капитана */
 .marker {
-color: #fafafa;
-font-size: 12px; /* Размер текста подсказки */
-font-family: "Cour"; /* Гарнитура шрифта */
-background: rgba(84, 255, 0, 0.12); /* Полупрозрачный цвет фона */
-padding: 5px 5px; /* Поля */
-border-radius: 5px;
+    color: #fafafa;
+    font-size: 12px; /* Размер текста */
+    font-family: "Cour", serif; /* Гарнитура шрифта */
+    background: rgba(84, 255, 0, 0.12); /* Полупрозрачный цвет фона */
+    padding: 5px 5px; /* Поля */
+    border-radius: 5px; /* Скругление границ */
 }
 
+/* Названия параметров в блоке .text */
 .param {
     color: #fafafa;
 }
+/**********************************************/
 
+/**********************************************/
+/* Свойства контента параметров в блоке .text */
 .name {
     font-size: 20px;
     font-weight: 800;
     color: limegreen;
-    word-wrap: break-word; /* Перенос слов */
+    /*word-wrap: break-word; !* Перенос слов *!*/
 }
 
 .group {
@@ -89,23 +102,30 @@ border-radius: 5px;
 .git {
     font-weight: 800;
 }
+/**********************************************/
 
+/**********************************************/
+/* Переопределяем оформление ссылки */
 a {
     color: #ffdd00;
     text-decoration: underline;
 }
-
+/* Переопределяем оформление ссылки при наведении */
 a:hover {
     color: orangered;
 }
+/**********************************************/
 
+/* Перекрываем свойства клавиш навигации "вперед/назад" Bootstrap */
+/* !important позволяет гарантировать приоритет стиля */
 .nav-button-redefine {
     align-items: initial !important;
-    top: 8em !important;
-    height: 100px;
+    top: 8em !important; /* Устанавливаем отступ от верхней границы родительского блока */
+    height: 100px; /* Небольшая фиксированная высота, до этого была излишняя */
 }
 
+/* Блок .footer */
 .footer {
-    text-align: center;
-    opacity: 0.7;
+    text-align: center; /* Выравнивание по центру */
+    opacity: 0.7; /* Прозрачность содержимого 0.7 */
 }

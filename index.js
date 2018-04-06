@@ -9,6 +9,6 @@ app.get('/*', function(req, res) {
     res.sendfile("static/index.html");
 });
 
-const port = process.env.PORT || 5033;
+const port = process.env.PORT || 5333;
 app.listen(port);
 console.log("Server works on port " + port);
