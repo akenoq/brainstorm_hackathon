@@ -1,4 +1,3 @@
-![Image alt](https://github.com//akenoq/brainstorm_hackathon/raw/master/static/dist/img/title-board.png)
 ![Image alt](./static/dist/img/title-board.png)
 
 ## Сайт-визитка команды Brainstorm
