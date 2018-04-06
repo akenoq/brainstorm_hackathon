@@ -94,7 +94,6 @@ body {
     font-size: 20px;
     font-weight: 800;
     color: limegreen;
-    /*word-wrap: break-word; !* Перенос слов *!*/
 }
 
 .group {
@@ -118,7 +117,7 @@ a:hover {
 }
 /**********************************************/
 
-/* Перекрываем свойства клавиш навигации "вперед/назад" Bootstrap */
+/* Перекрываем стили клавиш навигации "вперед/назад" Bootstrap */
 /* !important позволяет гарантировать приоритет стиля */
 .nav-button-redefine {
     align-items: initial !important;
